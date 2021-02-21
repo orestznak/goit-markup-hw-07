@@ -27,10 +27,14 @@
   --sen-btn-bcg-color: #188ce8;
 }
 
-.list {
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
   padding: 0px;
-  margin: 0px;
-  list-style: none;
+  border: 0px;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
 }
 
 /* BASE */
@@ -103,14 +107,10 @@ footer .container {
   padding-bottom: 94px;
 }
 
-.visually-hidden {
-  position: absolute;
-  clip: rect(1px, 1px, 1px, 1px);
+.list {
   padding: 0px;
-  border: 0px;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
+  margin: 0px;
+  list-style: none;
 }
 
 /* COMPONENTS */

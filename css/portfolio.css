@@ -26,12 +26,6 @@
   --sen-btn-bcg-color: #188ce8;
 }
 
-.list {
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
-}
-
 .visually-hidden {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
@@ -120,6 +114,12 @@ footer .container {
   height: 1px;
   width: 1px;
   overflow: hidden;
+}
+
+.list {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
 }
 
 /* COMPONENTS */
