@@ -36,6 +36,16 @@
   overflow: hidden;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0px;
+  border: 0px;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
 /* BASE */
 html {
   -webkit-box-sizing: border-box;
@@ -104,16 +114,6 @@ footer .container {
 
 .works .container {
   padding-bottom: 94px;
-}
-
-.visually-hidden {
-  position: absolute;
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0px;
-  border: 0px;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
 }
 
 .list {
